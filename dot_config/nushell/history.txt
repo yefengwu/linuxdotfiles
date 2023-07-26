@@ -1,0 +1,550 @@
+ls
+env
+ls
+ps
+env
+ls
+ps
+env
+ls
+env
+starship
+ls
+cd
+ls
+zsh
+zsh
+env
+ls
+ps
+env
+ls
+z nis
+ls
+z nixos/
+ls
+z
+ls
+z ni
+ls
+lg
+ls
+config nu
+ls
+ga
+make test
+ls
+vi flake.nix
+ls
+re
+ls
+lg
+alias
+aliases
+ls
+openfile 
+ls
+env
+ls
+env
+config nu
+ls
+ps
+env
+ls
+ps
+ls
+sl
+vi Makefile
+ls
+ps
+env
+l
+ls
+env
+sl
+ls
+vi arrfunc3.cpp
+ls
+z nix
+ls
+z nvim
+ls
+vi init.lua
+ls
+vi 
+ls
+vi init.lua
+ls
+vi init.lua
+ls
+l
+ps
+ls
+vi init.lua
+ls
+sl
+ls
+lg
+lsl
+ls
+pa
+ls
+vi 
+ls
+vi init.lua
+ls
+lf
+ls
+lf
+ls
+sl
+lg
+lazygit
+ls
+lf
+joshuto 
+ls
+ps
+env
+lsls
+vls
+vi init.lua
+ls
+ps
+env
+ls
+lg
+ls
+z
+ls
+l
+ls
+z prog/
+ls
+l
+vi arrfunc3.cpp
+ls
+lg
+z nvim 
+lg
+ls
+lazygit
+ls
+vi init.lua
+ls
+vi ls
+ls
+vi init.lua
+ls
+vi readme.md
+ls
+vi init.lua
+ls
+vi init.lua
+ls
+l
+lg
+ls
+config nu
+ls
+z nix
+ls
+make test
+ls
+sl
+ls
+lg
+ls
+lg
+ls
+l
+ls
+z prols
+ls
+z
+ls
+cd prog/
+ls
+vi arrfunc3.cpp
+ls
+la
+ls -al
+ls
+bash ls
+ls
+vi travel.cpp
+ls
+vi travel.cpp
+ls
+en
+env
+ls
+ps
+ls
+z nvim 
+ls
+vi 
+ls
+vi 
+ls
+vi lua/base/mappings.lua
+env
+env | grep zsh 
+chsh 
+ls
+env 
+env | rg zsh 
+vi 
+ls
+vi 
+env 
+env | rg zsh 
+rg SHELL
+l
+ls
+z nxi
+ls
+z nix
+ls
+rg SHELL
+ls
+z
+ls
+z nvim 
+ls
+vi init.lua
+ls
+ps
+ls
+env 
+env | rg zsh 
+ls
+env
+ls
+ps
+env
+ls
+rg zsh 
+ls
+vi 
+ls
+config env
+ls
+let-env SHELL = "nu"
+env
+env | rg zsh 
+env | rg nu
+ls
+vi 
+ls
+config env
+nu
+zsh 
+ls
+env | rg nu
+ls
+vi 
+ls
+env
+ls
+l
+ls
+env
+ls
+env 
+z nix
+sl
+ls
+ga
+make test
+ls
+env
+ls
+env
+ls
+ps
+ls
+z prog/
+ls
+vi travel.cpp
+ls
+vi atrctfun.cpp
+ls
+./structptr
+ls
+vi topfive.cpp
+ls
+z nvim
+ls
+z prols
+z pr
+ls
+vi topfive.cpp
+ls
+z nvim 
+ls
+lg
+ls
+env
+ls
+ps
+env
+l
+ls
+vi init.lua
+ls
+env
+ls
+z nvim 
+ls
+ifconfig 
+ls
+ifconfig 
+ls
+ds
+ls
+config nu
+ls
+docker ps
+ls
+vi 
+ls
+la
+z
+ls
+vi 
+ls
+z prog/
+ls
+vi travel.cpp
+ls
+ssh docker
+ds
+z
+ls
+vi .config/configstore/
+ls
+vi .ssh/config
+ls
+sl
+ls
+env
+ls
+ds
+ls
+z nixos/
+ls
+env
+ls
+l
+env
+ps
+env
+ls
+l
+ls
+vi 
+ls
+config nu
+fzf
+ls
+z ni
+ls
+vi shell.nix
+ls
+z nvim 
+ls
+lg
+ls
+..
+ls
+rm -rf nvim 
+ls
+git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+vi 
+ls
+vi 
+ls
+vi 
+ls
+z
+ls
+z nix
+ls
+vi 
+ls
+ps
+ls
+vi 
+ls
+ps
+ls
+z prols
+z prog
+ls
+vi structptr.cpp
+ls
+vi arrobj.cpp
+ls
+vi 
+ls
+vi 
+ls
+vi travel.cpp
+ls
+vi travel.cpp
+ls
+vi recus.cpp
+vi 
+ls
+z nvim 
+ls
+..
+ls
+lg
+ls
+rm -rf nvim 
+gcl git@github.com:yefengwu/neovim.git nvim 
+ls
+vi 
+ls
+vi 
+ls
+neofetch 
+ls
+ps
+ls
+ds
+sl
+docker ps
+ls
+ds
+docker logs -f jupyter
+ls
+dockerps
+docker ps
+lk
+lazydocker
+docker logs -f jupyterlab
+docker restart jupyterlab
+ls
+alias
+ls
+z work/
+ls
+ps
+cd
+ls
+docker logs -f jupyterlab
+ls
+docker logs -f jupyterlab
+ls
+de jupyterlab
+ls
+vi .ssh/config
+ls
+docker attach jupyterlab
+ls
+z nixos/
+ls
+make test
+ls
+alias
+aliases
+$nu.scope.alias
+$nu.scope.aliases
+$nu.aliases
+ds
+ls
+lg
+ls
+z
+ls
+ci 
+ls
+ci 
+ls
+z nix
+ls
+make test
+ls
+ci
+ls
+ci init 
+ls
+z
+ls
+cd .local/share/
+ls
+cd chezmoi/
+ls
+cd
+ls
+lc
+z
+ls
+ci init git@github.com:yefengwu/nix-dotfiles.git
+ci cd 
+ls
+ci cd
+ls
+pwd
+git remote -v
+grv
+ls
+ci list
+ls
+cd
+ls
+vi ~/.config/chezmoi/chezmoi.toml
+l
+md .config/chezmoi
+vi ~/.config/chezmoi/chezmoi.toml
+ls
+sl
+ls
+cd .config/nushell/
+ls
+la
+ls -al
+ls
+z nix
+ls
+z nu
+ls
+cp config.nu env.nu ~/.config/nushell/
+ci git remote 
+ci git remote  -v
+ls
+lf
+ls
+jushuto
+ranger
+ls
+cp env.nu ~/.config/chezmoi/
+cp config.nu ~/.config/chezmoi/
+ls
+ls
+mv ../chezmoi/env.nu .
+mv ../chezmoi/config.nu .
+ls
+vi default.nix
+ls
+ci add config.nu
+ci cd
+z ch
+ls
+git remote add origin git@github.com:yefengwu/nix-dotfiles.git
+ls
+ci diff
+ls
+z 
+z nu
+ls
+z
+ls
+z .config/nushell/
+ls
+vi history.txt
+ls
