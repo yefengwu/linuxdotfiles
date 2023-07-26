@@ -1,0 +1,6 @@
+Host github.com
+  User franklxw@outlook.com
+  HostName ssh.github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/id_ed25519
+  Port 443
