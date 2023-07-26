@@ -1,0 +1,6 @@
+on_force_close "quit"
+simplified_ui false
+default_shell "nu"
+pane_frames false
+theme "Nord"
+copy_on_select false
