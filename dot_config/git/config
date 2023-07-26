@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = "main"
+
+[pull]
+	rebase = true
+
+[user]
+	email = "franklxw@outlook.com"
+	name = "xuwei"
