@@ -32,6 +32,19 @@ alias da='docker attach'
 alias di='docker images'
 alias ds='docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Status}}"'
 function de
-    docker exec -it $argv[1] /bin/bash
+    set -l container (docker ps --format "{{.Names}}" | fzf)
+    if test -n "$container"
+        docker exec -it $container /bin/bash
+    end
 end
 
+function fzf_nvim
+    set -l selected_files (fzf --height 50% --preview 'bat --color=always {}' --preview-window '~3')
+    if test -n "$selected_files"
+        nvim $selected_files
+    end
+end
+
+function fish_user_key_bindings
+    bind \cf fzf_nvim
+end
