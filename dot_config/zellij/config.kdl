@@ -1,6 +1,6 @@
 on_force_close "quit"
 simplified_ui true
-default_shell "nu"
+default_shell "fish"
 pane_frames false
 theme "Nord"
 copy_on_select false
