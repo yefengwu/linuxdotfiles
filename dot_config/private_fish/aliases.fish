@@ -27,6 +27,11 @@ alias z='__zoxide_z'
 alias ze='zellij'
 alias zi='__zoxide_zi'
 
+# git 
+alias gst='git status'
+alias gd='git diff'
+alias grv='git remote -v'
+
 # docker cmds
 alias da='docker attach'
 alias di='docker images'
