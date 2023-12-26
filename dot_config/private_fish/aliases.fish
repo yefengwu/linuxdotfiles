@@ -18,7 +18,6 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 
 # tools cmds
-alias bat='batcat'
 alias lg='lazygit'
 alias lk='lazydocker'
 alias vd='nvim -d'
@@ -31,6 +30,7 @@ alias zi='__zoxide_zi'
 alias gst='git status'
 alias gd='git diff'
 alias grv='git remote -v'
+alias glg='git log --stat | less'
 
 # docker cmds
 alias da='docker attach'
