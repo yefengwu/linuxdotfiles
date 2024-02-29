@@ -1,6 +1,7 @@
 #some normal command
 # system cmds
 alias ci='chezmoi'
+alias eo='/mnt/c/Windows/explorer.exe'
 alias ip='ifconfig'
 alias l='ls -lah'
 alias la='ls -lAh'
@@ -27,6 +28,7 @@ alias ze='zellij'
 alias zi='__zoxide_zi'
 
 # git 
+alias gcl='git clone'
 alias gst='git status'
 alias gd='git diff'
 alias grv='git remote -v'
