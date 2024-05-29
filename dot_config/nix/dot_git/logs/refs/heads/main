@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 55af6f149eb32fd73da0ec8ad36091680f87d62d xuwei <xuwei@UM690> 1704682183 +0800	clone: from https://github.com/yefengwu/nixubuntu.git
+55af6f149eb32fd73da0ec8ad36091680f87d62d 913d6a4435a68bc837b12d33fe02d168b85a01ce xuwei <franklxw@outlook.com> 1704704756 +0800	commit (amend): feat: add some applications
+913d6a4435a68bc837b12d33fe02d168b85a01ce ee6208e76debe1afe186e8b2a432a03c86f322d5 xuwei <franklxw@outlook.com> 1705030236 +0800	commit (amend): feat: add some applications
+ee6208e76debe1afe186e8b2a432a03c86f322d5 976f27a9e49745376863fb26ec3a4acea1a965dd xuwei <franklxw@outlook.com> 1705297567 +0800	commit (amend): feat: add some applications
+976f27a9e49745376863fb26ec3a4acea1a965dd 0d1dd7b02d93293881fabe00874f3403e87aef4a xuwei <franklxw@outlook.com> 1713145501 +0800	commit: feat: add openssh
+0d1dd7b02d93293881fabe00874f3403e87aef4a 6f7f8cef95fd14e6153f569dc797a083599ec3a2 xuwei <franklxw@outlook.com> 1716878427 +0800	commit: feat: add jq
