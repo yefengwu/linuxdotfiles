@@ -4,7 +4,8 @@ customCommands:
     attach: true
     command: docker exec -it {{ .Container.ID }} /bin/sh
     serviceNames: []
-  - name: RemoveImages 
+  images:
+  - name: RemoveTag
     attach: true
-    command: docker rmi {{ .Container.ID }}
+    command: docker rmi {{ .Repository }}
     serviceNames: []
