@@ -1,0 +1,10 @@
+customCommands:
+  containers:
+  - name: EnterContainers
+    attach: true
+    command: docker exec -it {{ .Container.ID }} /bin/sh
+    serviceNames: []
+  - name: RemoveImages 
+    attach: true
+    command: docker rmi {{ .Container.ID }}
+    serviceNames: []
