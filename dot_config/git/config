@@ -12,13 +12,19 @@
     pager = delta
 
 [interactive]
-    ; diffFilter = delta --color-only --features=interactive
+    diffFilter = delta --color-only 
 
 [delta]
+     navigate = true
     ; features = decorations
-    side-by-side = true
+    ; side-by-side = true
 ;     line-numbers-left-format = ""
 ;     line-numbers-right-format = "│ "
+[merge]
+    tool = nvimdiff
+
+[diff]
+    colorMoved = default
 ;
 ; [delta "interactive"]
 ;     keep-plus-minus-markers = false
