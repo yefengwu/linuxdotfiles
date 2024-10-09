@@ -32,6 +32,7 @@ alias zi='__zoxide_zi'
 alias gcl='git clone'
 alias gst='git status'
 alias gd='git diff'
+alias gc='git checkout'
 alias grv='git remote -v'
 alias glg='git log --stat | less'
 
