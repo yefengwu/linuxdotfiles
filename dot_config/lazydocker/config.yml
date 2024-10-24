@@ -15,13 +15,13 @@ gui:
   returnImmediately: true
   wrapMainPanel: true
   # Side panel width as a ratio of the screen's width
-  sidePanelWidth: 0.333
+  sidePanelWidth: 0.444
   # Determines whether we show the bottom line (the one containing keybinding
   # info and the status of the app).
   showBottomLine: true
   # When true, increases vertical space used by focused side panel,
   # creating an accordion effect
-  expandFocusedSidePanel: false
+  expandFocusedSidePanel: true
   # Determines which screen mode will be used on startup
   screenMode: "normal" # one of 'normal' | 'half' | 'fullscreen'
   # Determines the style of the container status and container health display in the
