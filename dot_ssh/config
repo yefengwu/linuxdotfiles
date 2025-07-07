@@ -4,3 +4,10 @@ Host github.com
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/id_ed25519
   Port 443
+
+Host test
+    HostName 38.147.173.101
+    User root
+    Port 30473
+    ProxyCommand corkscrew 192.168.10.10 7897 %h %p
+

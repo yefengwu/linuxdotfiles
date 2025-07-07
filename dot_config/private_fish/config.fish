@@ -12,18 +12,8 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     zoxide init fish | source
     [ -f $HOME/.config/fish/aliases.fish ] && source $HOME/.config/fish/aliases.fish
-end
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-if test -f /home/xuwei/.local/share/miniconda3/bin/conda
-    eval /home/xuwei/.local/share/miniconda3/bin/conda "shell.fish" "hook" $argv | source
-else
-    if test -f "/home/xuwei/.local/share/miniconda3/etc/fish/conf.d/conda.fish"
-        . "/home/xuwei/.local/share/miniconda3/etc/fish/conf.d/conda.fish"
-    else
-        set -x PATH "/home/xuwei/.local/share/miniconda3/bin" $PATH
-    end
+    # bindkey
+    bind \b backward-kill-word
 end
-# <<< conda initialize <<<
 
