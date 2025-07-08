@@ -1,8 +1,0 @@
-[default]
-access_key = f6284cc2359056d8c8a4dcf0147490ff
-secret_key = f3e119a0d8fd1b186725f99bdf7ba53f96079e4dc38e881c6166e2c4dbd304ad
-bucket_location=auto
-host_base = 7bc4d574074fff0a81072d2075f9f48d.r2.cloudflarestorage.com
-host_bucket = 7bc4d574074fff0a81072d2075f9f48d.r2.cloudflarestorage.com
-enable_multipart = False
-
