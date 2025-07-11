@@ -8,6 +8,8 @@ if status is-interactive
     set -x HOMEBREW_CORE_GIT_REMOTE https://mirrors.ustc.edu.cn/homebrew-core.git
     set -x HOMEBREW_BOTTLE_DOMAIN https://mirrors.ustc.edu.cn/homebrew-bottles
     set -x HOMEBREW_API_DOMAIN https://mirrors.ustc.edu.cn/homebrew-bottles/api
+    set -x PUID $(id -u)
+    set -x PGID $(id -g)
     source (starship init fish --print-full-init | psub)
     # Commands to run in interactive sessions can go here
     zoxide init fish | source
