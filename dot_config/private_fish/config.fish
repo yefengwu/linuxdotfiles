@@ -12,6 +12,7 @@ if status is-interactive
     set -x PUID $(id -u)
     set -x PGID $(id -g)
     source (starship init fish --print-full-init | psub)
+    atuin init fish | source
     # Commands to run in interactive sessions can go here
     zoxide init fish | source
     [ -f $HOME/.config/fish/aliases.fish ] && source $HOME/.config/fish/aliases.fish
