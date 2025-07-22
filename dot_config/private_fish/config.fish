@@ -5,10 +5,11 @@ if status is-interactive
     if string match -q "*WSL2*" (uname -r)
         fish_add_path /mnt/c/users/xuwei/AppData/local/Programs/Microsoft\ VS\ Code/bin/
     end
-    set -x HOMEBREW_BREW_GIT_REMOTE https://mirrors.ustc.edu.cn/brew.git
-    set -x HOMEBREW_CORE_GIT_REMOTE https://mirrors.ustc.edu.cn/homebrew-core.git
-    set -x HOMEBREW_BOTTLE_DOMAIN https://mirrors.ustc.edu.cn/homebrew-bottles
-    set -x HOMEBREW_API_DOMAIN https://mirrors.ustc.edu.cn/homebrew-bottles/api
+    set -x all_proxy http://127.0.0.1:7897
+    # set -x HOMEBREW_BREW_GIT_REMOTE https://mirrors.ustc.edu.cn/brew.git
+    # set -x HOMEBREW_CORE_GIT_REMOTE https://mirrors.ustc.edu.cn/homebrew-core.git
+    # set -x HOMEBREW_BOTTLE_DOMAIN https://mirrors.ustc.edu.cn/homebrew-bottles
+    # set -x HOMEBREW_API_DOMAIN https://mirrors.ustc.edu.cn/homebrew-bottles/api
     set -x PUID $(id -u)
     set -x PGID $(id -g)
     source (starship init fish --print-full-init | psub)
@@ -32,3 +33,4 @@ end
 function ze 
     cd (zoxide query -i) 
 end
+
