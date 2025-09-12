@@ -2,7 +2,6 @@ if status is-interactive
     set -g fish_greeting
     set -gx EDITOR nvim
     fish_add_path /home/linuxbrew/.linuxbrew/bin
-    fish_add_path $HOME/.local/share/miniconda3/bin
     fish_add_path /mnt/c/users/xuwei/AppData/local/Programs/Microsoft\ VS\ Code/bin/
     set -x HOMEBREW_BREW_GIT_REMOTE https://mirrors.ustc.edu.cn/brew.git
     set -x HOMEBREW_CORE_GIT_REMOTE https://mirrors.ustc.edu.cn/homebrew-core.git
