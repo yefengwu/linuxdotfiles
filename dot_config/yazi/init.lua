@@ -32,6 +32,22 @@ Header:children_add(function()
 	return ui.Span(ya.user_name() .. "@" .. ya.host_name() .. ":"):fg("#87CEFA")
 end, 500, Header.LEFT)
 
+function Tabs.height()
+	return 0
+end
+
+Header:children_add(function()
+	if #cx.tabs == 1 then
+		return ""
+	end
+	local spans = {}
+	for i = 1, #cx.tabs do
+		spans[#spans + 1] = ui.Span(" " .. i .. " ")
+	end
+	spans[cx.tabs.idx]:reverse()
+	return ui.Line(spans)
+end, 9000, Header.RIGHT)
+
 require("full-border"):setup({
 	-- Available values: ui.Border.PLAIN, ui.Border.ROUNDED
 	type = ui.Border.ROUNDED,

@@ -1,12 +1,14 @@
-[plugin]
-deps = [
-  { use = "yazi-rs/plugins:full-border", rev = "b659791" },
-  { use = "yazi-rs/plugins:lsar", rev = "b659791" },
-  { use = "yazi-rs/plugins:chmod", rev = "b659791" },
-  { use = "yazi-rs/plugins:max-preview", rev = "49137fe" },
-  { use = "yazi-rs/plugins:hide-preview", rev = "49137fe" },
-  { use = "Reledia/miller", rev = "40e0265" },
-]
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-enter"
+rev = "9a52857"
+hash = "afb539b8877c08a04129af6d90aa395c"
 
-[flavor]
-deps = [{ use = "mingo99/tokyonight", rev = "f26ca68" }]
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "9a52857"
+hash = "3996fc74044bc44144b323686f887e1"
+
+[[flavor.deps]]
+use = "mingo99/tokyonight"
+rev = "005118e"
+hash = "104dd0f5e87aa4fea8f8e68ffa689a4e"
