@@ -52,3 +52,5 @@
 [http]
 	postBuffer = 524288000
 	version = HTTP/1.1
+[credential]
+	helper = store
